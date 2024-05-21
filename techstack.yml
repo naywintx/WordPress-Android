@@ -1,0 +1,467 @@
+repo_name: naywintx/WordPress-Android
+report_id: fe7c4ea81849ba90057d6e851ee9b310
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-21T02:32:18+00:00'
+requested_by: irfano
+provider: github
+branch: trunk
+detected_tools_count: 31
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 2.7.4
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/.ruby-version
+  detection_source: Repo Metadata
+  last_updated_by: Matt Chowning
+  last_updated_on: 2021-08-25 19:36:16.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/src/androidTest/assets/corrupteddb-reproducing-814.sql
+  detection_source: WordPress/src/androidTest/assets/corrupteddb-reproducing-814.sql
+  last_updated_by: Maxime Biais
+  last_updated_on: 2014-06-30 20:26:33.000000000 Z
+- name: Firebase
+  description: The Realtime App Platform
+  website_url: https://firebase.google.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/116/cZLxNFZS.jpg
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: Oguz Kocer
+  last_updated_on: 2021-06-08 05:26:34.000000000 Z
+- name: EventBus
+  description: An open-source library for Android and Java
+  website_url: http://greenrobot.org/eventbus/
+  version: 3.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/9610/no-img-open-source.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: malinajirka
+  last_updated_on: 2021-12-08 13:09:31.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  version: 1.12.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/Gemfile.lock
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/.github/workflows/automated-version-update-pr.yml
+  detection_source: ".github/workflows/automated-version-update-pr.yml"
+  last_updated_by: Enej Bajgoric
+  last_updated_on: 2022-01-05 09:30:49.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: Oguz Kocer
+  last_updated_on: 2022-05-24 17:40:50.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: vojtasmrcek
+  last_updated_on: 2020-09-18 09:31:59.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Lorenzo Mattei
+  last_updated_on: 2018-06-11 16:19:18.000000000 Z
+- name: fastlane
+  description: Connect all iOS deployment tools into one streamlined workflow
+  website_url: https://fastlane.tools/
+  version: 2.210.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Mobile Continuous Integration
+  image_url: https://img.stackshare.io/service/2383/11098337.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Olivier Halligon
+  last_updated_on: 2021-02-16 15:17:36.000000000 Z
+- name: Lottie
+  description: Easily add high-quality animation to any native app (by Airbnb)
+  website_url: http://airbnb.design/lottie/
+  version: 3.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Mobile Prototyping & Interaction Design Tools
+  image_url: https://img.stackshare.io/service/6445/lottie.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: vojtasmrcek
+  last_updated_on: 2021-02-25 10:50:28.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android
+  detection_source: Repo Metadata
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: Annmarie Ziegler
+  last_updated_on: 2022-06-03 23:44:08.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: org.jsoup:jsoup
+  description: Jsoup is a Java library for working with real-world HTML
+  version: 1.10.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: malinajirka
+  last_updated_on: 2022-03-25 05:50:47.000000000 Z
+  vulnerabilities:
+  - name: Uncaught Exception in jsoup
+    cve_id: CVE-2021-37714
+    cve_url: https://github.com/advisories/GHSA-m72m-mhq2-9p6c
+    detected_date: Aug 24
+    severity: high
+    first_patched: 1.14.2
+  - name: jsoup may not sanitize code injection XSS attempts if SafeList.preserveRelativeLinks
+      is enabled
+    cve_id: CVE-2022-36033
+    cve_url: https://github.com/advisories/GHSA-gp7f-rwcx-9369
+    detected_date: Sep 2
+    severity: moderate
+    first_patched: 1.15.3
+- name: com.squareup.okio:okio
+  description: A modern I/O API for Java
+  version: 2.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: Annmarie Ziegler
+  last_updated_on: 2022-06-03 23:44:08.000000000 Z
+  vulnerabilities:
+  - name: Okio Signed to Unsigned Conversion Error vulnerability
+    cve_id: CVE-2023-3635
+    cve_url: https://github.com/advisories/GHSA-w33c-445m-f8w7
+    detected_date: Jul 14
+    severity: moderate
+    first_patched: 3.4.0
+- name: com.github.bumptech.glide:glide
+  description: A fast and efficient image loading library for Android focused on smooth
+    scrolling
+  version: 4.10.0
+  license: BSD-2-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: Annmarie Ziegler
+  last_updated_on: 2022-06-03 23:44:08.000000000 Z
+- name: com.github.tomakehurst:wiremock
+  description: A web service test double for all occasions
+  version: 2.23.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/libs/mocks/build.gradle
+  detection_source: libs/mocks/build.gradle
+  last_updated_by: Oguz Kocer
+  last_updated_on: 2021-09-09 14:30:10.000000000 Z
+- name: com.google.auto.service:auto-service
+  description: Provider-configuration files for ServiceLoader
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/libs/processors/build.gradle
+  detection_source: libs/processors/build.gradle
+  last_updated_by: vojtasmrcek
+  last_updated_on: 2020-06-10 13:27:01.000000000 Z
+- name: com.squareup:kotlinpoet
+  description: Use beautiful Kotlin code to generate beautiful Kotlin code
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/libs/processors/build.gradle
+  detection_source: libs/processors/build.gradle
+  last_updated_by: Petros Paraskevopoulos
+  last_updated_on: 2022-09-22 13:16:16.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: malinajirka
+  last_updated_on: 2022-03-25 07:35:15.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: '3.5'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/libs/editor/build.gradle
+  detection_source: libs/editor/build.gradle
+  last_updated_by: Petros Paraskevopoulos
+  last_updated_on: 2022-07-12 08:50:30.000000000 Z
+- name: org.apache.commons:commons-text
+  description: Apache Commons Text is a library focused on algorithms working on strings
+  version: '1.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: Matthew Kevins
+  last_updated_on: 2022-09-11 20:32:34.000000000 Z
+- name: org.apache.httpcomponents:httpclient-android
+  version: 4.3.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/libs/mocks/build.gradle
+  detection_source: libs/mocks/build.gradle
+  last_updated_by: Petros Paraskevopoulos
+  last_updated_on: 2022-07-11 15:33:07.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: Petros Paraskevopoulos
+  last_updated_on: 2022-03-29 08:03:54.000000000 Z
+- name: org.bouncycastle:bcprov-jdk15on
+  description: The Bouncy Castle Crypto package is a Java implementation of cryptographic
+    algorithms
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: Carlos Garcia
+  last_updated_on: 2022-03-10 10:13:44.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/WordPress/build.gradle
+  detection_source: WordPress/build.gradle
+  last_updated_by: Petros Paraskevopoulos
+  last_updated_on: 2022-06-21 12:31:26.000000000 Z
+- name: nokogiri
+  description: Nokogiri
+  package_url: https://rubygems.org/nokogiri
+  version: 1.13.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: https://github.com/naywintx/WordPress-Android/blob/trunk/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Olivier Halligon
+  last_updated_on: 2021-02-16 15:17:36.000000000 Z
+  vulnerabilities:
+  - name: Unchecked return value from xmlTextReaderExpand
+    cve_id: CVE-2022-23476
+    cve_url: https://github.com/advisories/GHSA-qv4q-mr5r-qprj
+    detected_date: Dec 8
+    severity: high
+    first_patched: 1.13.10
+  - name: Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
+    detected_date: Feb 6
+    severity: moderate
+    first_patched: 1.15.6
+  - name: Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-2qc6-mcvw-92cw
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.13.9
+  - name: Use-after-free in libxml2 via Nokogiri::XML::Reader
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-vcc3-rw6f-jv97
+    detected_date: Mar 19
+    severity: moderate
+    first_patched: 1.15.6
+  - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.14.3
+  - name: 'Duplicate Advisory: Nokogiri updates packaged libxml2 to v2.12.7 to resolve
+      CVE-2024-34459'
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-r3w4-36x6-7r99
+    detected_date: May 15
+    severity: low
+    first_patched: 1.16.5
+  - name: Nokogiri updates packaged libxml2 to v2.12.7 to resolve CVE-2024-34459
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-r95h-9x8f-r3f7
+    detected_date: May 14
+    severity: low
+    first_patched: 1.16.5
